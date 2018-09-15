@@ -19,20 +19,20 @@
 	height: 835px;
 }
 
-.sk-asset.sk-Contrasting-Dynamics-365-App-for-Outlook {
+.sk-asset.sk-Outlook-Standard {
 	width: 1545px;
 	height: 829px;
 	left: 3px;
 	top: 4px;
-	background-image: url("images/Contrasting-Dynamics-365-App-for-Outlook.png");
+	background-image: url("images/Outlook Standard.png");
 }
 
 @media only screen and (min--moz-device-pixel-ratio: 2),
 only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
-	.sk-asset.sk-Contrasting-Dynamics-365-App-for-Outlook {
-		background-image: url("images/Contrasting-Dynamics-365-App-for-Outlook@2x.png");
+	.sk-asset.sk-Outlook-Standard {
+		background-image: url("images/Outlook Standard@2x.png");
 		background-size: 1545px 829px;
 	}
 }
@@ -40,8 +40,8 @@ only screen and (min-device-pixel-ratio: 2) {
 only screen and (-o-min-device-pixel-ratio: 3/1),
 only screen and (-webkit-min-device-pixel-ratio: 3),
 only screen and (min-device-pixel-ratio: 3) {
-	.sk-asset.sk-Contrasting-Dynamics-365-App-for-Outlook {
-		background-image: url("images/Contrasting-Dynamics-365-App-for-Outlook@3x.png");
+	.sk-asset.sk-Outlook-Standard {
+		background-image: url("images/Outlook Standard@3x.png");
 		background-size: 1545px 829px;
 	}
 }
