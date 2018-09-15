@@ -15,7 +15,7 @@
     <link href="css/blog-home.css" rel="stylesheet">
     <link href="css/simple-sidebar.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="/css/app.css" rel="stylesheet"></link>
+    <link href="css/app.css" rel="stylesheet">
 
 </head>
 
@@ -77,16 +77,34 @@
 
     <!-- Page Content -->
 
-    <div id="page-content-wrapper editor">
+    <div id="editor">
+        <div class="row">
+            <!-- Blog Entries Column -->
 
-            <header class="header">
-                    <h1 class="header__h1">Online Collab Edit</h1>
-            </header>
-            <div class="doc">
-                <div class="doc__background-ribbon"></div>
-                <div class="doc__text-editor hidden"></div>
+            <div class="col-md-1">&nbsp;</div>
+            <div class="col-md-6">
+
+                    <h1 class="my-4">
+                        <small>Create new document</small>
+                    </h1>
+
+                    <!-- Blog Post -->
+                    <div class="card mb-4">
+                        <div class="card-body doc__text-editor" id="doc">
+                            <p class="card-text"></p>
+                            <p>&nbsp;</p>
+                        </div>
+                    </div>
+
             </div>
+            <div class="col-md-3">
+                <div class="card-body">
+                    <h4>Suggested keywords...</h4>
 
+                </div>
+            </div>
+            <!-- Sidebar Widgets Column -->
+        </div>
     </div>
     <!-- /#page-content-wrapper -->
 
@@ -96,14 +114,19 @@
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="https://js.pusher.com/4.0/pusher.min.js"></script>
+<script src="js/editor.js"></script>
 
 <!-- Menu Toggle Script -->
 <script>
+    var doc = document.getElementById('doc');
+    doc.contentEditable = true;
+    doc.focus();
     $("#menu-toggle").click(function(e) {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
     });
 </script>
-
+<script src="js/data_editor.js"></script>
 </body>
 </html>
