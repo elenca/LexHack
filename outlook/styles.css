@@ -12,16 +12,16 @@
 	background-repeat: no-repeat;
 }
 
-/* Specific to Outlook */
-.sk-ab.sk-Outlook {
+/* Specific to Outlook Small Window */
+.sk-ab.sk-Outlook-Small-Window {
 	background-color: #FFFFFF;
-	width: 1549px;
-	height: 835px;
+	width: 1284px;
+	height: 694px;
 }
 
 .sk-asset.sk-Outlook-Standard {
-	width: 1545px;
-	height: 829px;
+	width: 1280px;
+	height: 687px;
 	left: 3px;
 	top: 4px;
 	background-image: url("images/Outlook Standard.png");
@@ -33,7 +33,7 @@ only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	.sk-asset.sk-Outlook-Standard {
 		background-image: url("images/Outlook Standard@2x.png");
-		background-size: 1545px 829px;
+		background-size: 1280px 687px;
 	}
 }
 @media only screen and (min--moz-device-pixel-ratio: 3),
@@ -42,14 +42,14 @@ only screen and (-webkit-min-device-pixel-ratio: 3),
 only screen and (min-device-pixel-ratio: 3) {
 	.sk-asset.sk-Outlook-Standard {
 		background-image: url("images/Outlook Standard@3x.png");
-		background-size: 1545px 829px;
+		background-size: 1280px 687px;
 	}
 }
 .sk-asset.sk-BG-Grey {
-	width: 355px;
-	height: 646px;
-	left: 1193px;
-	top: 167px;
+	width: 290px;
+	height: 532px;
+	left: 992px;
+	top: 141px;
 	background-image: url("images/BG Grey.png");
 }
 
@@ -59,7 +59,7 @@ only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	.sk-asset.sk-BG-Grey {
 		background-image: url("images/BG Grey@2x.png");
-		background-size: 355px 646px;
+		background-size: 290px 532px;
 	}
 }
 @media only screen and (min--moz-device-pixel-ratio: 3),
@@ -68,14 +68,14 @@ only screen and (-webkit-min-device-pixel-ratio: 3),
 only screen and (min-device-pixel-ratio: 3) {
 	.sk-asset.sk-BG-Grey {
 		background-image: url("images/BG Grey@3x.png");
-		background-size: 355px 646px;
+		background-size: 290px 532px;
 	}
 }
 .sk-asset.sk-Last-Activities {
-	width: 339px;
-	height: 123px;
-	left: 1200px;
-	top: 516px;
+	width: 277px;
+	height: 101px;
+	left: 998px;
+	top: 429px;
 	background-image: url("images/Last Activities.png");
 }
 
@@ -85,7 +85,7 @@ only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	.sk-asset.sk-Last-Activities {
 		background-image: url("images/Last Activities@2x.png");
-		background-size: 339px 123px;
+		background-size: 277px 101px;
 	}
 }
 @media only screen and (min--moz-device-pixel-ratio: 3),
@@ -94,14 +94,14 @@ only screen and (-webkit-min-device-pixel-ratio: 3),
 only screen and (min-device-pixel-ratio: 3) {
 	.sk-asset.sk-Last-Activities {
 		background-image: url("images/Last Activities@3x.png");
-		background-size: 339px 123px;
+		background-size: 277px 101px;
 	}
 }
 .sk-asset.sk-Detected-Relations {
-	width: 339px;
-	height: 123px;
-	left: 1200px;
-	top: 386px;
+	width: 277px;
+	height: 101px;
+	left: 998px;
+	top: 322px;
 	background-image: url("images/Detected Relations.png");
 }
 
@@ -111,7 +111,7 @@ only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	.sk-asset.sk-Detected-Relations {
 		background-image: url("images/Detected Relations@2x.png");
-		background-size: 339px 123px;
+		background-size: 277px 101px;
 	}
 }
 @media only screen and (min--moz-device-pixel-ratio: 3),
@@ -120,14 +120,92 @@ only screen and (-webkit-min-device-pixel-ratio: 3),
 only screen and (min-device-pixel-ratio: 3) {
 	.sk-asset.sk-Detected-Relations {
 		background-image: url("images/Detected Relations@3x.png");
-		background-size: 339px 123px;
+		background-size: 277px 101px;
+	}
+}
+.sk-asset.sk-BTN-Law-102 {
+	width: 150px;
+	height: 19px;
+	left: 1117px;
+	top: 363px;
+	background-image: url("images/BTN Law 102.png");
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.sk-asset.sk-BTN-Law-102 {
+		background-image: url("images/BTN Law 102@2x.png");
+		background-size: 150px 19px;
+	}
+}
+@media only screen and (min--moz-device-pixel-ratio: 3),
+only screen and (-o-min-device-pixel-ratio: 3/1),
+only screen and (-webkit-min-device-pixel-ratio: 3),
+only screen and (min-device-pixel-ratio: 3) {
+	.sk-asset.sk-BTN-Law-102 {
+		background-image: url("images/BTN Law 102@3x.png");
+		background-size: 150px 19px;
+	}
+}
+.sk-asset.sk-BTN-Law-101 {
+	width: 107px;
+	height: 19px;
+	left: 1006px;
+	top: 363px;
+	background-image: url("images/BTN Law 101.png");
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.sk-asset.sk-BTN-Law-101 {
+		background-image: url("images/BTN Law 101@2x.png");
+		background-size: 107px 19px;
+	}
+}
+@media only screen and (min--moz-device-pixel-ratio: 3),
+only screen and (-o-min-device-pixel-ratio: 3/1),
+only screen and (-webkit-min-device-pixel-ratio: 3),
+only screen and (min-device-pixel-ratio: 3) {
+	.sk-asset.sk-BTN-Law-101 {
+		background-image: url("images/BTN Law 101@3x.png");
+		background-size: 107px 19px;
+	}
+}
+.sk-asset.sk-BTN-Person {
+	width: 76px;
+	height: 19px;
+	left: 1006px;
+	top: 386px;
+	background-image: url("images/BTN Person.png");
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.sk-asset.sk-BTN-Person {
+		background-image: url("images/BTN Person@2x.png");
+		background-size: 76px 19px;
+	}
+}
+@media only screen and (min--moz-device-pixel-ratio: 3),
+only screen and (-o-min-device-pixel-ratio: 3/1),
+only screen and (-webkit-min-device-pixel-ratio: 3),
+only screen and (min-device-pixel-ratio: 3) {
+	.sk-asset.sk-BTN-Person {
+		background-image: url("images/BTN Person@3x.png");
+		background-size: 76px 19px;
 	}
 }
 .sk-asset.sk-Case-225 {
-	width: 339px;
-	height: 64px;
-	left: 1200px;
-	top: 314px;
+	width: 277px;
+	height: 53px;
+	left: 998px;
+	top: 262px;
 	background-image: url("images/Case 225.png");
 }
 
@@ -137,7 +215,7 @@ only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	.sk-asset.sk-Case-225 {
 		background-image: url("images/Case 225@2x.png");
-		background-size: 339px 64px;
+		background-size: 277px 53px;
 	}
 }
 @media only screen and (min--moz-device-pixel-ratio: 3),
@@ -146,14 +224,14 @@ only screen and (-webkit-min-device-pixel-ratio: 3),
 only screen and (min-device-pixel-ratio: 3) {
 	.sk-asset.sk-Case-225 {
 		background-image: url("images/Case 225@3x.png");
-		background-size: 339px 64px;
+		background-size: 277px 53px;
 	}
 }
 .sk-asset.sk-Case-393 {
-	width: 339px;
-	height: 65px;
-	left: 1200px;
-	top: 250px;
+	width: 277px;
+	height: 54px;
+	left: 998px;
+	top: 209px;
 	background-image: url("images/Case 393.png");
 }
 
@@ -163,7 +241,7 @@ only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	.sk-asset.sk-Case-393 {
 		background-image: url("images/Case 393@2x.png");
-		background-size: 339px 65px;
+		background-size: 277px 54px;
 	}
 }
 @media only screen and (min--moz-device-pixel-ratio: 3),
@@ -172,40 +250,40 @@ only screen and (-webkit-min-device-pixel-ratio: 3),
 only screen and (min-device-pixel-ratio: 3) {
 	.sk-asset.sk-Case-393 {
 		background-image: url("images/Case 393@3x.png");
-		background-size: 339px 65px;
+		background-size: 277px 54px;
 	}
 }
-.sk-asset.sk-Detected-Cases {
-	width: 339px;
-	height: 34px;
-	left: 1200px;
-	top: 217px;
-	background-image: url("images/Detected Cases.png");
+.sk-asset.sk-Detected-Cases-Copy {
+	width: 277px;
+	height: 28px;
+	left: 998px;
+	top: 182px;
+	background-image: url("images/Detected Cases Copy.png");
 }
 
 @media only screen and (min--moz-device-pixel-ratio: 2),
 only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
-	.sk-asset.sk-Detected-Cases {
-		background-image: url("images/Detected Cases@2x.png");
-		background-size: 339px 34px;
+	.sk-asset.sk-Detected-Cases-Copy {
+		background-image: url("images/Detected Cases Copy@2x.png");
+		background-size: 277px 28px;
 	}
 }
 @media only screen and (min--moz-device-pixel-ratio: 3),
 only screen and (-o-min-device-pixel-ratio: 3/1),
 only screen and (-webkit-min-device-pixel-ratio: 3),
 only screen and (min-device-pixel-ratio: 3) {
-	.sk-asset.sk-Detected-Cases {
-		background-image: url("images/Detected Cases@3x.png");
-		background-size: 339px 34px;
+	.sk-asset.sk-Detected-Cases-Copy {
+		background-image: url("images/Detected Cases Copy@3x.png");
+		background-size: 277px 28px;
 	}
 }
 .sk-asset.sk-Header {
-	width: 355px;
-	height: 39px;
-	left: 1193px;
-	top: 167px;
+	width: 290px;
+	height: 32px;
+	left: 992px;
+	top: 141px;
 	background-image: url("images/Header.png");
 }
 
@@ -215,7 +293,7 @@ only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	.sk-asset.sk-Header {
 		background-image: url("images/Header@2x.png");
-		background-size: 355px 39px;
+		background-size: 290px 32px;
 	}
 }
 @media only screen and (min--moz-device-pixel-ratio: 3),
@@ -224,6 +302,6 @@ only screen and (-webkit-min-device-pixel-ratio: 3),
 only screen and (min-device-pixel-ratio: 3) {
 	.sk-asset.sk-Header {
 		background-image: url("images/Header@3x.png");
-		background-size: 355px 39px;
+		background-size: 290px 32px;
 	}
 }
