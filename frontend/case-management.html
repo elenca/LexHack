@@ -28,33 +28,32 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <!--  <div > class="container" -->
 
-            <a href="#menu-toggle" class="btn btn-primary" id="menu-toggle">Change dashboard</a>
+        <a href="#menu-toggle" class="btn btn-primary" id="menu-toggle">Change dashboard</a>
 
-            
-            
-            <button class="navbar-toggler float-left" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse float-left" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home
-                                    <span class="sr-only">(current)</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
-                            </li>
-                        </ul>
-                
-                <form class="form-inline mt-2 mt-md-0 pull-right">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </div>
+
+
+        <button class="navbar-toggler float-left" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse float-left" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+            </ul>
+
+            <form class="form-inline mt-2 mt-md-0 pull-right">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
         <!-- </div> -->
     </nav>
-
     <!-- Sidebar -->
     <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
@@ -85,9 +84,15 @@
             <!-- Blog Entries Column -->
             <div class="col-md-8">
 
-                <h1 class="my-4">Page Heading
-                    <small>Secondary Text</small>
+                <h1 class="my-4">Case a21
+                    <small>Mark Zuckerberg</small>
                 </h1>
+                <div class="btn-group">
+                    <button type="button" id="show-preview" class="btn btn-info active">Lawyer</button>
+                    <button type="button" id="show-html" class="btn btn-info">Topic</button>
+                    <button type="button" id="show-css" class="btn btn-info">Category</button>
+                    <button type="button" id="show-js" class="btn btn-info">Status</button>
+                </div>
 
                 <!-- Activity Stream -->
                 <div class="container mt-5 mb-5">
@@ -128,13 +133,13 @@
                             <div class="col-lg-6">
                                 <ul class="list-unstyled mb-0">
                                     <li>
-                                        <a href="#">Mark Zuckerberg</a>
+                                        Name: <a href="#">Mark Zuckerberg</a>
                                     </li>
                                     <li>
-                                        <a href="#">Facebook</a>
+                                        Company: <a href="#">Facebook</a>
                                     </li>
                                     <li>
-                                        <a href="#">San Francisco</a>
+                                        Location: <a href="#">San Francisco</a>
                                     </li>
                                 </ul>
                             </div>
@@ -193,7 +198,7 @@
                     <div class="card-body">
                         <div class="todolist not-done">
                             <input type="text" class="form-control add-todo" placeholder="New item">
-                            <button id="checkAll" class="btn btn-success">Add todo</button>
+                            <button id="checkAll" class="btn btn-info">Add todo</button>
 
                             <hr>
                             <ul id="sortable" class="list-unstyled">
