@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackZurich2018", "HackZurich2018\HackZurich2018.csproj", "{C86A32CA-DC63-4A8B-8DC0-C32C8AD3F22D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C86A32CA-DC63-4A8B-8DC0-C32C8AD3F22D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C86A32CA-DC63-4A8B-8DC0-C32C8AD3F22D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C86A32CA-DC63-4A8B-8DC0-C32C8AD3F22D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C86A32CA-DC63-4A8B-8DC0-C32C8AD3F22D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3FCF4A94-EBD7-415E-8D52-2FD4BF1CC37F}
+	EndGlobalSection
+EndGlobal
