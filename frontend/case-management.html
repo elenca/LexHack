@@ -136,10 +136,10 @@
                             <div class="col-lg-6">
                                 <ul class="list-unstyled mb-0">
                                     <li>
-                                        Name: <a href="#">Mark Zuckerberg</a>
+                                        Name: <a href="#" id="show-client-name"></a>
                                     </li>
                                     <li>
-                                        Position: <a href="#">CEO</a>
+                                        Position: <a href="#" id="show-client-position"></a>
                                     </li>
                                     <li>
                                         Company: <a href="#">Facebook</a>
@@ -314,6 +314,8 @@
 
     $(document).ready(function () {
         var showData = $('#show-data');
+        var showClientName = $('#show-client-name');
+        var showClientPosition = $('#show-client-position');
 
         $.getJSON(url, function (data) {
             console.log(data);
@@ -323,6 +325,11 @@
                 showData.append(tags + " ");
                 console.log(tags);
             }
+
+            var client = data.persons;
+            showClientName.append(client.Name);
+            showClientPosition.append(client.Position);
+            console.log(client);
 
         });
     });
