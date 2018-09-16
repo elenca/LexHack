@@ -118,6 +118,22 @@
                                     <a href="#" class="float-right">1 April, 2014</a>
                                     <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
                                 </li>
+                                <li>
+                                    <p>&nbsp;</p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-9">
+                            <hr>
+                            <h4>Related Law Articles</h4>
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    CCNr: <a href="#" id="show-law-ccnr"></a>
+                                </li>
+                                <li>
+                                    Url: <a href="#" id="show-law-url"></a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -213,63 +229,65 @@
         </div>
         <!-- /.row -->
 
-        <h2>Related Documents</h2>
-        <div class="table-responsive">
-            <table class="table table-striped table-sm">
-                <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Type</th>
-                    <th>Category</th>
-                    <th>Status</th>
-                    <th>Date</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td>1,001</td>
-                    <td>Lorem</td>
-                    <td>ipsum</td>
-                    <td>dolor</td>
-                    <td>sit</td>
-                </tr>
-                <tr>
-                    <td>1,011</td>
-                    <td>eget</td>
-                    <td>nulla</td>
-                    <td>Class</td>
-                    <td>aptent</td>
-                </tr>
-                <tr>
-                    <td>1,012</td>
-                    <td>taciti</td>
-                    <td>sociosqu</td>
-                    <td>ad</td>
-                    <td>litora</td>
-                </tr>
-                <tr>
-                    <td>1,013</td>
-                    <td>torquent</td>
-                    <td>per</td>
-                    <td>conubia</td>
-                    <td>nostra</td>
-                </tr>
-                <tr>
-                    <td>1,014</td>
-                    <td>per</td>
-                    <td>inceptos</td>
-                    <td>himenaeos</td>
-                    <td>Curabitur</td>
-                </tr>
-                <tr>
-                    <td>1,015</td>
-                    <td>sodales</td>
-                    <td>ligula</td>
-                    <td>in</td>
-                    <td>libero</td>
-                </tr>
-                </tbody>
-            </table>
+        <div style="margin-left: 12px; margin-right: 4px;">
+            <h2>Related Documents</h2>
+            <div class="table-responsive">
+                <table class="table table-striped table-sm">
+                    <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Type</th>
+                        <th>Category</th>
+                        <th>Status</th>
+                        <th>Date</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1,001</td>
+                        <td>Lorem</td>
+                        <td>ipsum</td>
+                        <td>dolor</td>
+                        <td>sit</td>
+                    </tr>
+                    <tr>
+                        <td>1,011</td>
+                        <td>eget</td>
+                        <td>nulla</td>
+                        <td>Class</td>
+                        <td>aptent</td>
+                    </tr>
+                    <tr>
+                        <td>1,012</td>
+                        <td>taciti</td>
+                        <td>sociosqu</td>
+                        <td>ad</td>
+                        <td>litora</td>
+                    </tr>
+                    <tr>
+                        <td>1,013</td>
+                        <td>torquent</td>
+                        <td>per</td>
+                        <td>conubia</td>
+                        <td>nostra</td>
+                    </tr>
+                    <tr>
+                        <td>1,014</td>
+                        <td>per</td>
+                        <td>inceptos</td>
+                        <td>himenaeos</td>
+                        <td>Curabitur</td>
+                    </tr>
+                    <tr>
+                        <td>1,015</td>
+                        <td>sodales</td>
+                        <td>ligula</td>
+                        <td>in</td>
+                        <td>libero</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
 
     </div>
@@ -316,6 +334,8 @@
         var showData = $('#show-data');
         var showClientName = $('#show-client-name');
         var showClientPosition = $('#show-client-position');
+        var showLawCCNr = $('#show-law-ccnr');
+        var showLawUrl = $('#show-law-url');
 
         $.getJSON(url, function (data) {
             console.log(data);
@@ -330,6 +350,13 @@
             showClientName.append(client.Name);
             showClientPosition.append(client.Position);
             console.log(client);
+
+            for (var i = 0; i < data.classifiedCompilation.length; i++) {
+                var laws = data.classifiedCompilation[i];
+                showLawCCNr.append(laws.CCNr);
+                showLawUrl.append(laws.OriginalUrl);
+                console.log(laws);
+            }
 
         });
     });
