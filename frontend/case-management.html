@@ -93,6 +93,9 @@
                     <button type="button" id="show-css" class="btn btn-info">Category</button>
                     <button type="button" id="show-js" class="btn btn-info">Status</button>
                 </div>
+                <div class="btn-group">
+                    <button type="button" id="show-data" class="btn btn-default"></button>
+                </div>
 
                 <!-- Activity Stream -->
                 <div class="container mt-5 mb-5">
@@ -158,10 +161,11 @@
                 </div>
 
                 <!-- Side Widget -->
+                <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#open-todos" aria-expanded="false" aria-controls="open-todos">
+                    ToDo's
+                </button>
+
                 <div class="card my-4">
-                    <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#open-todos" aria-expanded="false" aria-controls="open-todos">
-                        ToDo's
-                    </button>
 
                     <div class="collapse" id="open-todos">
 
@@ -300,6 +304,38 @@
     $(function () {
         $('[data-toggle="popover"]').popover()
     })
+</script>
+
+
+<script>
+
+    var url = "json/example.json";
+    //var url = "http://lexhack.the-admins.ch/messages";
+
+    $(document).ready(function () {
+        var showData = $('#show-data');
+
+        $.getJSON(url, function (data) {
+            console.log(data);
+
+            for (var i = 0; i < data.tags.length; i++) {
+                var tags = data.tags[i];
+                showData.append(tags + " ");
+                console.log(tags);
+            }
+
+        });
+    });
+
+    $.ajax({
+        method: "POST",
+        crossOrigin: true,
+        url: url,
+        success: function(data) {
+            console.log(data);
+        }
+    });
+
 </script>
 
 </body>
