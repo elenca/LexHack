@@ -2,7 +2,7 @@
 
 import os
 import json
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_from_directory
 from py2neo import Graph
 from models import Person
 from ml import predict_tags
@@ -38,9 +38,7 @@ def find_cases(from_person):
     cases = [c.toDict() for c in person.Accuser]
     return cases
 
-@app.route("/")
-def get_index():
-    return app.send_static_file('index.html')
+
 
 @app.route("/messages", methods=['POST'])
 def new_message():
@@ -53,6 +51,11 @@ def new_message():
     cases = find_cases(from_person)
     return jsonify(build_response(result, involved_persons, mails, tag_list, cases))
 
+
+@app.route('/static/<path:path>')
+def send_static(path):
+    return send_from_directory('static', path)
+    
 def build_response(classifiedCompilation, persons, mails, tag_list, cases):
     return {
         "classifiedCompilation": classifiedCompilation,

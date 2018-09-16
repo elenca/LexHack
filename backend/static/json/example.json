@@ -1,0 +1,306 @@
+{
+  "cases": [
+    {
+      "Accuser": "Mark Zuckerberg",
+      "Lawyer": [
+        "Guenther Dobrauz-Saldapenna"
+      ],
+      "Name": "Ch048",
+      "Related_to_Mails": [
+        {
+          "Receiver": [
+            "Guenther Dobrauz-Saldapenna"
+          ],
+          "Sender": [
+            "Mark Zuckerberg"
+          ],
+          "Subject": "RE: Early retirement",
+          "Text": "Hi Guenther\nThank you very much for your prompt answer on the subject of pensions.\nAs already mentioned, I will be 63 next year. 2 years to retire. In the company I am currently working for, I was offered an early retirement. But I don't know if such an early retirement is right? What can you say about this early retirement?\nMark"
+        }
+      ]
+    },
+    {
+      "Accuser": "Mark Zuckerberg",
+      "Lawyer": [
+        "Guenther Dobrauz-Saldapenna"
+      ],
+      "Name": "NIGHT_LUNCH",
+      "Related_to_Mails": [
+        {
+          "Receiver": [
+            "Guenther Dobrauz-Saldapenna"
+          ],
+          "Sender": [
+            "Mark Zuckerberg"
+          ],
+          "Subject": "got my lunch back",
+          "Text": "Hi Guenther\nWe can dismiss the case NIGHT_LUNCH, Night King bought me a new lunch today\nMark"
+        },
+        {
+          "Receiver": [
+            "Guenther Dobrauz-Saldapenna"
+          ],
+          "Sender": [
+            "Mark Zuckerberg"
+          ],
+          "Subject": "progress update?",
+          "Text": "Hi Guenther\nIs there any progress for the case NIGHT_LUNCH where the Night King stole my lunch from last week?\nThanks, Mark"
+        }
+      ]
+    }
+  ],
+  "classifiedCompilation": [
+    {
+      "CCNr": "172.222.1",
+      "Categories": [
+        "State - People - Authorities",
+        "Federal Constitution of 18 April 1999 of the Swiss Confederation"
+      ],
+      "Compilation": null,
+      "EffectiveDate": "2007-05-01T02:00:00+02:00",
+      "EnactmentDate": "2006-12-20T01:00:00+01:00",
+      "OriginalUrl": "https://www.admin.ch/opc/en/classified-compilation/20050203/index.html",
+      "Title": "Federal Act of 20 December 2006 on the Federal Pension Fund (PUBLICA Act)",
+      "articles": [
+        {
+          "ClassifiedCompilation": [
+            "172.222.1"
+          ],
+          "FullId": "172.222.1a21",
+          "Id": "a21",
+          "Marginalia": "Abrogation of Confederation guarantees",
+          "Numerical": "21",
+          "Paragraphs": [
+            {
+              "Numerical": "1",
+              "Text": "Subject to the provisions of paragraph 2, all guarantees in accordance with PUBLICA's opening balance sheet, whereby the Confederation assumed the shortfall in the policy reserve in certain cases, are abrogated with retroactive effect. The cases in question are as follows: a. if PUBLICA cannot recover by court order the claims against affiliated organisations on the retirement of female members of the entry generation in accordance with Article 74 of the Ordinance of 25 April 2001 on Insurance in the Core Plan of the Federal Pension Fund; b. if the new rules for voluntary early retirement cannot be implemented on 1 January 2005: until their effective date, but no later than the expiry of any transition period that may have been set; c. if there is a legally binding court ruling against PUBLICA or the Confederation, in the case of a claim to pension benefits that originated prior to migration, specifically in the case of legal proceedings underway at the time of migration."
+            },
+            {
+              "Numerical": "2",
+              "Text": "The guarantee provided by the Confederation within the meaning of paragraph 1, letter c remains applicable in the case of legal proceedings of particular financial consequence. These are rulings that, due to their nature of precedence, require the adaptation of additional insurance conditions and which, by virtue of the amount of the shortfall in policy reserves or the administrative effort generated for PUBLICA in adapting the insurance conditions, entail extraordinarily high costs."
+            }
+          ],
+          "Title": "Art. 21",
+          "category": 3
+        },
+        {
+          "ClassifiedCompilation": [
+            "172.222.1"
+          ],
+          "FullId": "172.222.1a25",
+          "Id": "a25",
+          "Marginalia": "Guarantee of retirement benefits for the transition generation",
+          "Numerical": "25",
+          "Paragraphs": [
+            {
+              "Numerical": "",
+              "Text": "All insured persons in employment who have reached the age of 55 but are not yet 65 at the time this Act comes into force are entitled to \"grandfathering\" rights corresponding to 95 % of the retirement benefits granted at 62 years of age under the existing law, or at least the retirement benefits provided for under this Act. If voluntary early retirement is taken before the age of 62, the guaranteed rights are reduced on an actuarial basis. PUBLICA bears the costs incurred in such grandfathering."
+            }
+          ],
+          "Title": "Art. 25",
+          "category": 3
+        }
+      ]
+    },
+    {
+      "CCNr": "101",
+      "Categories": [
+        "State - People - Authorities",
+        "Federal Constitution of 18 April 1999 of the Swiss Confederation"
+      ],
+      "Compilation": null,
+      "EffectiveDate": "2000-01-01T01:00:00+01:00",
+      "EnactmentDate": "1998-12-18T01:00:00+01:00",
+      "OriginalUrl": "https://www.admin.ch/opc/en/classified-compilation/19995395/index.html",
+      "Title": "Federal Constitution of 18 April 1999 of the Swiss Confederation",
+      "articles": [
+        {
+          "ClassifiedCompilation": [
+            "101"
+          ],
+          "FullId": "101a123c",
+          "Id": "a123c",
+          "Marginalia": "Measure relating to sexual offences involving children or persons who are incapable of judgement or resistance",
+          "Numerical": "123",
+          "Paragraphs": [
+            {
+              "Numerical": "",
+              "Text": "Persons convicted of harming the sexual integrity of a child or of a dependent person shall permanently lose the right to carry on a profession or voluntary activity involving minors or dependent persons."
+            }
+          ],
+          "Title": "Art. 123c",
+          "category": 3
+        }
+      ]
+    },
+    {
+      "CCNr": "210",
+      "Categories": [
+        "State - People - Authorities",
+        "Federal Constitution of 18 April 1999 of the Swiss Confederation"
+      ],
+      "Compilation": null,
+      "EffectiveDate": "1912-01-01T01:00:00+01:00",
+      "EnactmentDate": "1907-12-10T01:00:00+01:00",
+      "OriginalUrl": "https://www.admin.ch/opc/en/classified-compilation/19070042/index.html",
+      "Title": "Swiss Civil Code of 10 December 1907",
+      "articles": [
+        {
+          "ClassifiedCompilation": [
+            "210"
+          ],
+          "FullId": "210a124a",
+          "Id": "a124a",
+          "Marginalia": "IV. Equitable division in the case of invalidity pensions after statutory retirement age and in the case of retirement pensions",
+          "Numerical": "124",
+          "Paragraphs": [
+            {
+              "Numerical": "1",
+              "Text": "If, at the point at which divorce proceedings commence, a spouse is drawing an invalidity pension after the statutory retirement age or drawing a retirement pension, the court decides at its own discretion how the pension is to be divided. In doing so it primarily takes into account the duration of the marriage and the pension requirements of each spouse."
+            },
+            {
+              "Numerical": "2",
+              "Text": "The share of the pension awarded to the spouse entitled thereto is converted into a life-long pension. This is paid to the entitled spouse by the liable spouse's occupational pension fund or is transferred to the entitled spouse's own occupational pension fund."
+            },
+            {
+              "Numerical": "3",
+              "Text": "The Federal Council regulates: 1. the actuarial conversion of the share of the pension into a life-long pension; 2. the procedure in cases in which the retirement benefits are postponed or the invalidity pension is reduced due to over-compensation."
+            }
+          ],
+          "Title": "Art. 124a",
+          "category": 3
+        }
+      ]
+    }
+  ],
+  "mails": [
+    {
+      "Receiver": [
+        "Guenther Dobrauz-Saldapenna"
+      ],
+      "Sender": [
+        "Mark Zuckerberg"
+      ],
+      "Subject": "RE: Early retirement",
+      "Text": "Hi Guenther\nThank you very much for your prompt answer on the subject of pensions.\nAs already mentioned, I will be 63 next year. 2 years to retire. In the company I am currently working for, I was offered an early retirement. But I don't know if such an early retirement is right? What can you say about this early retirement?\nMark"
+    },
+    {
+      "Receiver": [
+        "Guenther Dobrauz-Saldapenna"
+      ],
+      "Sender": [
+        "Mark Zuckerberg"
+      ],
+      "Subject": "got my lunch back",
+      "Text": "Hi Guenther\nWe can dismiss the case NIGHT_LUNCH, Night King bought me a new lunch today\nMark"
+    },
+    {
+      "Receiver": [
+        "Guenther Dobrauz-Saldapenna"
+      ],
+      "Sender": [
+        "Mark Zuckerberg"
+      ],
+      "Subject": "progress update?",
+      "Text": "Hi Guenther\nIs there any progress for the case NIGHT_LUNCH where the Night King stole my lunch from last week?\nThanks, Mark"
+    }
+  ],
+  "persons": {
+    "Accused": [],
+    "Accuser": [
+      {
+        "Accuser": "Mark Zuckerberg",
+        "Lawyer": [
+          "Guenther Dobrauz-Saldapenna"
+        ],
+        "Name": "Ch048",
+        "Related_to_Mails": [
+          {
+            "Receiver": [
+              "Guenther Dobrauz-Saldapenna"
+            ],
+            "Sender": [
+              "Mark Zuckerberg"
+            ],
+            "Subject": "RE: Early retirement",
+            "Text": "Hi Guenther\nThank you very much for your prompt answer on the subject of pensions.\nAs already mentioned, I will be 63 next year. 2 years to retire. In the company I am currently working for, I was offered an early retirement. But I don't know if such an early retirement is right? What can you say about this early retirement?\nMark"
+          }
+        ]
+      },
+      {
+        "Accuser": "Mark Zuckerberg",
+        "Lawyer": [
+          "Guenther Dobrauz-Saldapenna"
+        ],
+        "Name": "NIGHT_LUNCH",
+        "Related_to_Mails": [
+          {
+            "Receiver": [
+              "Guenther Dobrauz-Saldapenna"
+            ],
+            "Sender": [
+              "Mark Zuckerberg"
+            ],
+            "Subject": "got my lunch back",
+            "Text": "Hi Guenther\nWe can dismiss the case NIGHT_LUNCH, Night King bought me a new lunch today\nMark"
+          },
+          {
+            "Receiver": [
+              "Guenther Dobrauz-Saldapenna"
+            ],
+            "Sender": [
+              "Mark Zuckerberg"
+            ],
+            "Subject": "progress update?",
+            "Text": "Hi Guenther\nIs there any progress for the case NIGHT_LUNCH where the Night King stole my lunch from last week?\nThanks, Mark"
+          }
+        ]
+      }
+    ],
+    "Company": [
+      "Facebook"
+    ],
+    "Mails_received": [],
+    "Mails_sent": [
+      {
+        "Receiver": [
+          "Guenther Dobrauz-Saldapenna"
+        ],
+        "Sender": [
+          "Mark Zuckerberg"
+        ],
+        "Subject": "RE: Early retirement",
+        "Text": "Hi Guenther\nThank you very much for your prompt answer on the subject of pensions.\nAs already mentioned, I will be 63 next year. 2 years to retire. In the company I am currently working for, I was offered an early retirement. But I don't know if such an early retirement is right? What can you say about this early retirement?\nMark"
+      },
+      {
+        "Receiver": [
+          "Guenther Dobrauz-Saldapenna"
+        ],
+        "Sender": [
+          "Mark Zuckerberg"
+        ],
+        "Subject": "got my lunch back",
+        "Text": "Hi Guenther\nWe can dismiss the case NIGHT_LUNCH, Night King bought me a new lunch today\nMark"
+      },
+      {
+        "Receiver": [
+          "Guenther Dobrauz-Saldapenna"
+        ],
+        "Sender": [
+          "Mark Zuckerberg"
+        ],
+        "Subject": "progress update?",
+        "Text": "Hi Guenther\nIs there any progress for the case NIGHT_LUNCH where the Night King stole my lunch from last week?\nThanks, Mark"
+      }
+    ],
+    "Name": "Mark Zuckerberg",
+    "Position": "CEO"
+  },
+  "tags": [
+    "retirement",
+    "voluntary",
+    "zuckerberg",
+    "hear",
+    "differently"
+  ]
+}
