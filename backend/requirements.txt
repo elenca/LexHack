@@ -60,7 +60,7 @@ six==1.11.0
 sounddevice==0.3.12
 tornado==5.1
 traitlets==4.3.2
-urllib3==1.22
+urllib3==1.26.5
 wcwidth==0.1.7
 Werkzeug==0.14.1
 wrapt==1.10.11
